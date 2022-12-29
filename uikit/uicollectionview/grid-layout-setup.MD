@@ -1,5 +1,7 @@
 # How to setup a Grid Layout with UICollectionView
 
+ * [Demo project](https://github.com/wimansha/ios-code-hub/blob/main/uikit/uicollectionview/GridCollectionView-Demo.zip)
+
 ```swift
 class GridView {
     private var cellSpace: CGFloat = 10
