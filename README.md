@@ -1,9 +1,11 @@
 # ios-code-hub
 All iOS essentials at one place.
 
-## Basics
+## Swift Language
 
-## UICollectionView
+## UIKit
+
+### UICollectionView
 * [Grid Setup](https://github.com/wimansha/ios-code-hub/blob/main/uikit/uicollectionview/grid-layout-setup.MD)
 
 ## Design Patterns
