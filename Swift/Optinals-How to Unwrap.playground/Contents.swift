@@ -73,8 +73,23 @@ showPersonInfo(person: person3)
 // === OPTIONAL CHAINING ===
 
 var optionalPerson: Person?
-let name = optionalPerson?.name ?? "Name not given"
+let name = optionalPerson?.name ?? "Name not given" //if optinalPerson is nil it won't check the name if it and directly retirns nil as final output.
 print(name)
+
+struct Student {
+    let firstName: String
+    let lastName: String
+    
+    func getFullName() -> String {
+        return firstName + lastName
+    }
+}
+
+let student1 = Student(firstName: "John", lastName: "Doe")
+let student2 : Student? = nil
+
+let fullname1 = student1.getFullName()
+let fullname2 = student2?.getFullName() // without ? mark, it will try to execute getFullName() and will crash the app.
 
 
 
