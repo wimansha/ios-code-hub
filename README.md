@@ -19,3 +19,5 @@ test line 1
 test line 2
 test line 3
 test line 4
+
+test 1 from branch test-git-1
